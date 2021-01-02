@@ -52,12 +52,6 @@
 </head>
 <body>
 
-<script>
-    function launch(url) {
-            var base = window.location.protocol + window.location.hostname + window.location.port + url;
-            window.location.assign(base);
-    }
-</script>
 <div class="container">
 <a href="pi-speed.html" target="_blank">
 <a href="server.js" target="_blank">
@@ -71,9 +65,7 @@
     <button class="tablinks" onclick=" window.open('http://' + location.host + ':2501' + '/plugin/mobiledashboard/')">Kismet-Mobile</buttton> <!--TraceBack=server.js-->
     <button class="tablinks" onclick=" window.open('profiler')">Profiler</buttton>
 </div>
-<div style="margin:0 auto;text-align:center">
-
-   
+<div style="margin:0 auto;text-align:center"> 
     <div style="justify-content: center;margin-top: auto;">
         <p>
             <object data="pi-speed.html" width="600" height="600"></object>
@@ -81,8 +73,6 @@
     </div>
 
 </div>
-
-</object>
 </body>
 
 </html>
